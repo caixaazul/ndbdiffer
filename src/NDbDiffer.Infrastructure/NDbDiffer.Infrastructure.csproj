@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\NDbDiffer.Common\NDbDiffer.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Cmd\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

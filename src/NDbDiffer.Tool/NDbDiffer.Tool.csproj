@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NDbDiffer.Common\NDbDiffer.Common.csproj" />
+    <ProjectReference Include="..\NDbDiffer.Infrastructure\NDbDiffer.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
