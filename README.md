@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cribeiro84_ndbdiffer&metric=alert_status)](https://sonarcloud.io/dashboard?id=cribeiro84_ndbdiffer) [![Build status](https://dev.azure.com/caixaazul/NDbDiffer/_apis/build/status/NDbDiffer.CI)](https://dev.azure.com/caixaazul/NDbDiffer/_build/latest?definitionId=8) ![Release status](https://vsrm.dev.azure.com/caixaazul/_apis/public/Release/badge/c9c27776-1bc1-4066-8d55-ed365e1b9d8c/1/1)
+
 # ndbdiffer
 Lightweight open Source Command-Line Database Diff tool to facilitate the Database schema synchronization and versioning. 
 
