@@ -4,7 +4,7 @@
 Lightweight open Source Command-Line Database Diff tool to facilitate the Database schema synchronization and versioning. 
 
 # Features (In development)
-- **Database Engine:** SQL Server
+- **Default Provider Database Engine:** SQL Server
 - Extract Database schema from an existing database to a target folder
 - Sync an existing schema (Database or Folder) to a new target (Database or Folder)
   - Changes only
@@ -15,3 +15,14 @@ Lightweight open Source Command-Line Database Diff tool to facilitate the Databa
    - Functions
    - User Defined Type
    - Triggers
+- Supported input types
+   - Command-line inputs (priotiry)
+   - YAML file (future releases)
+
+# Future releaes
+- Plugins support
+- New Providers support
+   - Oracle
+   - MySQL
+   - MariaDB
+   - Postgres
