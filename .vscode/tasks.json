@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/NDbDiffer.Tool/NDbDiffer.Tool.csproj"
+                "${workspaceFolder}/src/NDbDiffer/NDbDiffer.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/NDbDiffer.Tool/NDbDiffer.Tool.csproj"
+                "${workspaceFolder}/src/NDbDiffer/NDbDiffer.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/src/NDbDiffer.Tool/NDbDiffer.Tool.csproj"
+                "${workspaceFolder}/src/NDbDiffer/NDbDiffer.csproj"
             ],
             "problemMatcher": "$tsc"
         }

@@ -17,9 +17,9 @@ Lightweight open Source Command-Line Database Diff tool to facilitate the Databa
    - Triggers
 - Supported input types
    - Command-line inputs (priotiry)
-   - YAML file (future releases)
 
-# Future releaes
+# Future releases
+- YAML file
 - Plugins support
 - New Providers support
    - Oracle

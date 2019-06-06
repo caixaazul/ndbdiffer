@@ -1,6 +1,6 @@
 using System;
 
-namespace NDbDiffer.Infrastructure.Providers
+namespace NDbDiffer.Providers
 {
     public interface IDifferProvider : IDifferExtractProvider, IDifferSyncProvider, IDifferParserProvider
     {

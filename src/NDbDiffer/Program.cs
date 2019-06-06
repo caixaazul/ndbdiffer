@@ -1,8 +1,8 @@
 ﻿using System;
 using CommandLine;
-using NDbDiffer.Infrastructure.Cmd;
+using NDbDiffer.Cmd;
 
-namespace NDbDiffer.Tool
+namespace NDbDiffer
 {
     class Program
     {

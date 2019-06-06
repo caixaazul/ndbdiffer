@@ -1,4 +1,4 @@
-namespace NDbDiffer.Infrastructure.Providers
+namespace NDbDiffer.Providers
 {
     public interface IDifferParserProvider
     {

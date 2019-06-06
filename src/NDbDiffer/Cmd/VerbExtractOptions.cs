@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using CommandLine;
 
-namespace NDbDiffer.Infrastructure.Cmd
+namespace NDbDiffer.Cmd
 {
     [Verb("extract", HelpText = "Extracts the schema of the database and generates the script files into a target folder")]
     public class VerbExtractOptions

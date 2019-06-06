@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace NDbDiffer.Infrastructure.Cmd
+namespace NDbDiffer.Cmd
 {
     [Verb("sync", HelpText = "Synchronizes the source database to a destination database.")]
     public class VerbSyncOptions

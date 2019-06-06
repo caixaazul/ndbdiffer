@@ -2,15 +2,11 @@
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbDiffer.Common", "src\NDbDiffer.Common\NDbDiffer.Common.csproj", "{036852AE-7AA4-459C-8B58-A852C0F17AC0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbDiffer.Infrastructure", "src\NDbDiffer.Infrastructure\NDbDiffer.Infrastructure.csproj", "{B77946B0-51A4-4577-99D4-44733707D92D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{17756EA7-8C3E-4FDD-B576-8AD1A150A0E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2BAC42AC-5951-459F-AAF0-C1FC8BFFAEAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbDiffer.Tool", "src\NDbDiffer.Tool\NDbDiffer.Tool.csproj", "{02688DD5-D61A-49F8-A488-DFAE29682B1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbDiffer", "src\NDbDiffer\NDbDiffer.csproj", "{02688DD5-D61A-49F8-A488-DFAE29682B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,8 +59,6 @@ Global
 		{02688DD5-D61A-49F8-A488-DFAE29682B1D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{036852AE-7AA4-459C-8B58-A852C0F17AC0} = {17756EA7-8C3E-4FDD-B576-8AD1A150A0E0}
-		{B77946B0-51A4-4577-99D4-44733707D92D} = {17756EA7-8C3E-4FDD-B576-8AD1A150A0E0}
 		{02688DD5-D61A-49F8-A488-DFAE29682B1D} = {17756EA7-8C3E-4FDD-B576-8AD1A150A0E0}
 	EndGlobalSection
 EndGlobal
