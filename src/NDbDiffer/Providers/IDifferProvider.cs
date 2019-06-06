@@ -2,7 +2,7 @@ using System;
 
 namespace NDbDiffer.Providers
 {
-    public interface IDifferProvider : IDifferExtractProvider, IDifferSyncProvider, IDifferParserProvider
+    public interface IDifferProvider : IDifferExtractProvider, IDifferSyncProvider, IDifferParserProvider, IDifferCompareProvider
     {
 
     }

@@ -5,11 +5,13 @@ Lightweight open Source Command-Line Database Diff tool to facilitate the Databa
 
 # Features (In development)
 - **Default Provider Database Engine:** SQL Server
+  - Version(s): 2016
 - Extract Database schema from an existing database to a target folder
 - Sync an existing schema (Database or Folder) to a new target (Database or Folder)
   - Changes only
 - Supported Object types:
    - Tables
+     - Temporal Tables
    - Stored Procedures
    - Views
    - Functions
