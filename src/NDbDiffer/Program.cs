@@ -16,7 +16,7 @@ namespace NDbDiffer
 
         private static void ExecuteExtractVerb(VerbExtractOptions options)
         {
-            Console.WriteLine($"{options.ServerName}");
+            Console.WriteLine($"{options.SourceServerName}");
         }
 
         private static void ExecuteSyncVerb(VerbSyncOptions options)

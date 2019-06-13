@@ -7,19 +7,22 @@ namespace NDbDiffer.Cmd
     [Verb("extract", HelpText = "Extracts the schema of the database and generates the script files into a target folder")]
     public class VerbExtractOptions
     {
-        [Option('s', "server", Required = true, HelpText = "Server name.")]
-        public string ServerName { get; set; }
+        [Option("destination.folder", Required = false, HelpText = "Destination Folder path.")]
+        public string DestinationFolder { get; set; }
 
-        [Option('d', "database", Required = true, HelpText = "database name.")]
-        public string DatabaseName { get; set; }
+        [Option("source.server", Required = false, HelpText = "Source Server name.")]
+        public string SourceServerName { get; set; }
 
-        [Option('u', "user", Required = false, HelpText = "user name.")]
-        public string UserName { get; set; }
+        [Option("source.database", Required = false, HelpText = "Source database name.")]
+        public string SourceDatabaseName { get; set; }
 
-        [Option('p', "password", Required = false, HelpText = "user's password.")]
-        public string Password { get; set; }
+        [Option("source.user", Required = false, HelpText = "Source user name.")]
+        public string SourceUserName { get; set; }
 
-        [Option('f', "folder", Required = true, HelpText = "user's password.")]
-        public string TargetFolder {get;set;}
+        [Option("source.password", Required = false, HelpText = "Source user's password.")]
+        public string SourcePassword { get; set; }
+
+        [Option("source.useWindowsAuthentication", Required = false, HelpText = "Indicates if the connection will be made using Windows Authentication.")]
+        public bool SourceUseWindowsAuthentication { get; set; } = false;
     }
 }
