@@ -2,6 +2,8 @@
 
 Lightweight open Source Command-Line Database Diff tool to facilitate the Database schema synchronization and versioning.
 
+![GitHub](https://img.shields.io/github/license/caixaazul/ndbdiffer?style=flat-square)
+
 ## Build Status ##
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cribeiro84_ndbdiffer&metric=alert_status)](https://sonarcloud.io/dashboard?id=cribeiro84_ndbdiffer)
